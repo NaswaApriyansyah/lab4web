@@ -201,3 +201,5 @@ font-size: 18px;
 line-height: 25px;
 }
 ```
+hasil brower sebagai berikut!
+![Screenshot (7)](https://github.com/user-attachments/assets/ce2160fc-eb61-432c-ae94-4c9a85c3a08b)
