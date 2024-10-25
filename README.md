@@ -151,3 +151,23 @@ color: #b5b5b5;
 ```
 hasil browser sebagai berikut!
 ![Screenshot (5)](https://github.com/user-attachments/assets/22995be0-a9dc-4adf-a77b-9ff432b5387f)
+# Membuat Navigasi
+```/* navigasi */
+nav {
+display: block;
+background-color: #1f5faa;
+}
+nav a {
+padding: 15px 30px;
+display: inline-block;
+color: #ffffff;
+font-size: 14px;
+text-decoration: none;
+font-weight: bold;
+}
+nav a.active,
+nav a:hover {
+background-color: #2b83ea;
+}
+```
+hasil browser sebagai berikut!
