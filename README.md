@@ -1,4 +1,4 @@
-# lab4web
+![image](https://github.com/user-attachments/assets/d5e0dac4-3271-49b9-b3bc-5cb1b6b06636)# lab4web
 # 1Langkah-langkah Praktikum
 Persiapan membuat dokumen HTML dengan nama file lab4_box.html seperti berikut.
 ```<html lang="en">
@@ -84,3 +84,35 @@ mengaturnya.
 hasil browsernya
 ![Screenshot (4)](https://github.com/user-attachments/assets/70ac3c83-91c5-4295-a519-7f47c3256fda)
 
+# 3. Membuat Layout Sederhana
+```<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Layout Sederhana</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1>Layout Sederhana</h1>
+        </header>
+        <nav>
+        <a href="home.html" class="active">Home</a>
+        <a href="artikel.html">Artikel</a>
+        <a href="about.html">About</a>
+        <a href="kontak.html">Kontak</a>
+        </nav>
+        <section id="hero"></section>
+        <section id="wrapper">
+        <section id="main"></section>
+        <aside id="sidebar"></aside>
+        </section>
+        <footer>
+        <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+</div>
+</body>
+</html>
+```
