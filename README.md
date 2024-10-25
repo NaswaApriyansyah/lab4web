@@ -118,3 +118,35 @@ hasil browsernya
 ```
 hasil browser sebagai berikut
 ![Cuplikan layar 2024-10-25 075718](https://github.com/user-attachments/assets/92dffcd5-9c5c-4be3-9232-720e53272f9d)
+
+kemudian tambahkan kode berikut!
+```/* import google font */
+@import
+url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@importurl('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+/* Reset CSS */
+* {
+margin: 0;
+padding: 0;
+}
+body {
+line-height:1;
+font-size:100%;
+font-family:'Open Sans', sans-serif;
+color:#5a5a5a;
+}
+#container {
+width: 980px;
+margin: 0 auto;
+box-shadow: 0 0 1em #cccccc;
+}
+/* header */
+header {
+padding: 20px;
+}
+header h1 {
+margin: 20px 10px;
+color: #b5b5b5;
+}```
+
+hasil browser sebagai berikut!
