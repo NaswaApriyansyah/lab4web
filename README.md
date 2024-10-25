@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d5e0dac4-3271-49b9-b3bc-5cb1b6b06636)# lab4web
+# lab4web
 # 1Langkah-langkah Praktikum
 Persiapan membuat dokumen HTML dengan nama file lab4_box.html seperti berikut.
 ```<html lang="en">
