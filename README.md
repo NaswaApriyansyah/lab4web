@@ -172,3 +172,32 @@ background-color: #2b83ea;
 ```
 hasil browser sebagai berikut!
 ![Screenshot (6)](https://github.com/user-attachments/assets/7153f863-3d9b-4cb1-b62b-f2e78fcd4512)
+
+# Membuat Hero Panel.
+tambahkan html
+```<section id="hero">
+<h1>Hello World!</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+elit, iaculis innisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,
+vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc
+pretium ac.</p>
+<a href="home.html" class="btn btn-large">Learn more &raquo;</a>
+</section>
+```
+tambahkan css
+```/* Hero Panel */
+#hero {
+background-color: #e4e4e5;
+padding: 50px 20px;
+margin-bottom: 20px;
+}
+#hero h1 {
+margin-bottom: 20px;
+font-size: 35px;
+}
+#hero p {
+margin-bottom: 20px;
+font-size: 18px;
+line-height: 25px;
+}
+```
