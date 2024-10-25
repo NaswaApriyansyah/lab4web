@@ -147,6 +147,7 @@ padding: 20px;
 header h1 {
 margin: 20px 10px;
 color: #b5b5b5;
-}```
-
+}
+```
 hasil browser sebagai berikut!
+![Screenshot (5)](https://github.com/user-attachments/assets/22995be0-a9dc-4adf-a77b-9ff432b5387f)
