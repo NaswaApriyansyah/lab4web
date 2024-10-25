@@ -203,3 +203,73 @@ line-height: 25px;
 ```
 hasil brower sebagai berikut!
 ![Screenshot (7)](https://github.com/user-attachments/assets/ce2160fc-eb61-432c-ae94-4c9a85c3a08b)
+# Mengatur Layout Main dan Sidebar
+tambahkan css
+```/* main content */
+#wrapper {
+margin: 0;
+}
+#main {
+float: left;
+width: 640px;
+padding: 20px;
+}
+/* sidebar area */
+#sidebar {
+float: left;
+width: 260px;
+padding: 20px;
+}
+```
+# Membuat Sidebar Widget
+Kemudian selanjutnya menambahkan element lain dalam sidebar.
+```<aside id="sidebar">
+<div class="widget-box">
+<h3 class="title">Widget Header</h3>
+<ul>
+<li><a href="#">Widget Link</a></li>
+<li><a href="#">Widget Link</a></li>
+<li><a href="#">Widget Link</a></li>
+<li><a href="#">Widget Link</a></li>
+<li><a href="#">Widget Link</a></li>
+</ul>
+</div>
+<div class="widget-box">
+<h3 class="title">Widget Text</h3>
+<p>Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt
+arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer
+pharetra est nunc, nec pretium nunc pretium ac.</p>
+</div>
+</aside
+```
+Kemudian tambahkan CSS.
+```/* widget */
+.widget-box {
+border:1px solid #eee;
+margin-bottom:20px;
+}
+.widget-box .title {
+padding:10px 16px;
+background-color:#428bca;
+color:#fff;
+}
+.widget-box ul {
+list-style-type:none;
+}
+.widget-box li {
+border-bottom:1px solid #eee;
+}
+.widget-box li a {
+padding:10px 16px;
+color:#333;
+display:block;
+text-decoration:none;
+}
+.widget-box li:hover a {
+background-color:#eee;
+}
+.widget-box p {
+padding:15px;
+line-height:25px;
+}
+```
