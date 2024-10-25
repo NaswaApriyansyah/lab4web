@@ -116,3 +116,5 @@ hasil browsernya
 </body>
 </html>
 ```
+hasil browser sebagai berikut
+![Cuplikan layar 2024-10-25 075718](https://github.com/user-attachments/assets/92dffcd5-9c5c-4be3-9232-720e53272f9d)
