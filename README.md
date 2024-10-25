@@ -459,3 +459,46 @@ Tugas!
 ```
 hasil browser sebagai berikut!
 ![Screenshot (8)](https://github.com/user-attachments/assets/eb56fce1-89e7-408a-8346-4e97eea2de47)
+# 2. Tambahkan layout untuk menu Contact
+=> yang berisi form isian: nama, email, message, dll
+```<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="kontak.html" class="active">Kontak</a>
+        </nav>
+        <section id="main">
+            <form>
+                <label for="name">Nama:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br><br>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
+```
+hasil browser sebagai berikut!
