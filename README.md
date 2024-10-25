@@ -419,3 +419,42 @@ float: right;
  hasil gambar sebagai berikut!
  
 ![Cuplikan layar 2024-10-25 083032](https://github.com/user-attachments/assets/8854493f-9e07-4b6b-a52b-10f779b23786)
+
+
+Tugas!
+# 1. Tambahkan Layout untuk menu About
+=> buat single layout yang berisi deskripsi, portfolio, dll
+```<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>About Me</h1>
+        </header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        <section id="main">
+            <h2>Deskripsi</h2>
+            <p>Write about yourself or your organization here.</p>
+            
+            <h2>Portfolio</h2>
+            <p>Showcase your works or projects here.</p>
+        </section>
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
+```
+hasil browser sebagai berikut!
