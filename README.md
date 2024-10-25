@@ -290,7 +290,7 @@ color:#eee;
 
 hasil browsernya sebagai berikut!
 
-
+![Cuplikan layar 2024-10-25 082920](https://github.com/user-attachments/assets/695d888a-8bc8-4231-b857-c6716b65c0bc)
 # Menambahkan Elemen lainnya pada Main Content
 ```<section id="main">
 <div class="row">
@@ -364,7 +364,10 @@ display:table;
 clear:both;
 }
 ```
+
 Lihat hasilnya dibrowser.
+
+![Cuplikan layar 2024-10-25 082957](https://github.com/user-attachments/assets/e8334a2d-f033-4c31-8eac-82eb7d72b1b2)
 
 # Menambahkan Content Artikel
 Selanjutnya membuat content artikel. Tambahkan HTML berikut pada main content.
@@ -413,4 +416,6 @@ margin-right: 15px;
 float: right;
 }
 ```
-hasil gambar sebagai berikut!
+ hasil gambar sebagai berikut!
+ 
+![Cuplikan layar 2024-10-25 083032](https://github.com/user-attachments/assets/8854493f-9e07-4b6b-a52b-10f779b23786)
